@@ -3,4 +3,4 @@
 
 # include these files 
 # ! at the beginning will include files in ignored areas
-!pyvenv.cfg
+!.venv/pyvenv.cfg
