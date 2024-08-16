@@ -1,0 +1,32 @@
+- Open VScode
+
+- In the file manager, navigate to the project folder
+
+- Drag and drop that folder into VS code
+
+- Open the terminal (or run a "hello world" program)
+	Should display, ex: user@lnxbox:~$
+
+- In the terminal, type:
+	python3 -m venv .venv
+
+- .venv folder is created
+
+- vs code should ask if you want to use the new environment, click yes
+	> if it doesn't ask, in lower right status bar, can select it
+		ie: Python 3.11.0 ('.venv': venv)
+		
+- Run the "hello world" again to open the terminal, and should see the prompt change
+	If it doesn't, go into the terminal and type:
+		$ . ./.venv/bin/activate
+		
+	This will activate the environment, with the prompt ex:
+		(.venv) user@lnxbox:~........$
+		
+	And you can then:
+		python --version
+		pip install --upgrade pip
+		pip install <packages>
+		etc
+		
+		VS code should remember the environment settings when that workspace is opened.
